@@ -13,6 +13,7 @@ public class UserService {
     public UserService() {
         users.add(new User(1, "John", "john@gmail.com"));
         users.add(new User(2, "Alice", "alice@gmail.com"));
+        users.add(new User(3, "meer", "meer@gmail.com"));
     }
 
     public List<User> getAllUsers() {
